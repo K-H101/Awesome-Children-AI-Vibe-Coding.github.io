@@ -1,0 +1,191 @@
+/* --- Global Styles & Dreamy Background --- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+    /* The magic background! */
+    background: linear-gradient(300deg, #ffafcc, #bde0fe, #a2d2ff, #ffc8dd);
+    background-size: 400% 400%;
+    animation: gradient-flow 20s ease infinite;
+    min-height: 100vh;
+    overflow-x: hidden; /* Prevent horizontal scroll from sparkles */
+}
+
+@keyframes gradient-flow {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+/* --- Header & Title --- */
+header {
+    text-align: center;
+    padding: 4rem 2rem;
+}
+
+header h1 {
+    font-size: 2.8rem;
+    font-weight: 700;
+    text-shadow: 0 0 15px rgba(0,0,0,0.2);
+}
+
+header .tagline {
+    font-size: 1.2rem;
+    opacity: 0.9;
+    margin-top: 0.5rem;
+}
+
+/* --- Glassmorphism Sections --- */
+section {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 20px;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+/* --- Interactive Project Cards --- */
+.project-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+}
+
+.project-card {
+    background: rgba(255, 255, 255, 0.15);
+    border-radius: 15px;
+    padding: 1.5rem;
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+    cursor: pointer;
+    /* For the 3D effect */
+    transform-style: preserve-3d;
+}
+
+.project-card:hover {
+    transform: perspective(1000px) rotateY(10deg) rotateX(5deg) scale(1.05);
+    box-shadow: 0 15px 40px rgba(0,0,0,0.2);
+}
+
+.project-card h3 {
+    font-size: 1.3rem;
+    margin-bottom: 0.5rem;
+}
+
+.project-card .creator {
+    font-weight: 600;
+    color: #ffd6a5;
+    margin-bottom: 1rem;
+}
+
+.project-card .description {
+    font-size: 0.9rem;
+    line-height: 1.6;
+    margin-bottom: 1.5rem;
+    opacity: 0.9;
+}
+
+.project-link {
+    text-decoration: none;
+    color: #fff;
+    background: rgba(0,0,0,0.2);
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    transition: background 0.3s;
+}
+
+.project-link:hover {
+    background: rgba(0,0,0,0.4);
+}
+
+/* --- Glowing Rainbow Button --- */
+.contribute-section {
+    text-align: center;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 1rem 2rem;
+    margin-top: 1rem;
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #fff;
+    border: 3px solid transparent;
+    border-radius: 50px;
+    background: rgba(255, 255, 255, 0.2);
+    position: relative;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+.cta-button::before {
+    content: '';
+    position: absolute;
+    top: -50%; left: -50%;
+    width: 200%; height: 200%;
+    background: conic-gradient(from 180deg at 50% 50%, #ff79c6, #f1fa8c, #50fa7b, #8be9fd, #bd93f9, #ff79c6);
+    animation: rotate-glow 4s linear infinite;
+    z-index: -1;
+    opacity: 0;
+    transition: opacity 0.4s ease;
+}
+
+.cta-button:hover::before {
+    opacity: 1;
+}
+
+.cta-button:hover {
+    transform: scale(1.05);
+}
+
+@keyframes rotate-glow {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}
+
+/* --- Footer --- */
+footer {
+    text-align: center;
+    padding: 2rem;
+    opacity: 0.8;
+}
+
+/* --- Magic Cursor Sparkles --- */
+.sparkle {
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    pointer-events: none; /* So it doesn't interfere with other elements */
+    z-index: 9999;
+    animation: fade-out-and-shrink 1s forwards;
+}
+
+@keyframes fade-out-and-shrink {
+    to {
+        transform: scale(0);
+        opacity: 0;
+    }
+}
