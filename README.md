@@ -35,21 +35,21 @@ This is where our young coders showcase their incredible creations made with the
 
 ### 1. Kenan's Awesome Cat Game! 🐱
 
-**Creator:** Kenan
-**Age:** 9 years old
+**Creator:** K-H101 (with inspiration from Kenan)
+**Age:** 9 years old (Kenan's involvement)
 **AI Tools Used:** Qwen-Coder, Claude 4 Sonnet
-**Tools & Languages:** Python
+**Tools & Languages:** Python (likely, based on examples)
 
-Kenan built this exciting cat game in just 2 hours, collaborating with AI! He asked Claude 4 Sonnet to help him brainstorm game ideas, and then used Qwen-Coder to write the Python code for the game's movement and scoring. Kenan's excellent prompts and clear instructions guided the AI to create a fun and interactive experience.
+**Kenan-shot** is an exciting cat game developed by **K-H101**, with creative input and collaboration from Kenan (age 9). They built this fun game in just 2 hours, leveraging AI tools like Claude 4 Sonnet for brainstorming and Qwen-Coder for assistance with the code. Kenan's clear prompts and direction were key to guiding the AI in creating this interactive experience.
 
-*   **What he built:** A simple yet engaging game that demonstrates player movement and interaction.
+*   **What was built:** A simple yet engaging game that demonstrates player movement and interaction.
 *   **How to Play:**
     *   Make sure you have Python installed on your computer.
-    *   Download the game files from this project's folder.
-    *   Open your terminal or command prompt, navigate to the game's folder, and run `python kenans_cat_game.py` (or the actual file name).
+    *   Download the game files from this project's folder (`projects/Kenans-CatGame-9`).
+    *   Open your terminal or command prompt, navigate to that folder (e.g., `cd projects/Kenans-CatGame-9`), and run `python kenans_cat_game.py` (or the actual main file name).
     *   Use the arrow keys to move the cat!
-*   **Learn more about Kenan's journey:** Kenan's project folder will contain his specific `README.md` with more details about his prompts and process!
-*   **GitHub:** [https://github.com/K-H101/Kenan-shot](https://github.com/K-H101/Kenan-shot) *(Note: You'll want to link directly to the *specific folder* for Kenan's project within YOUR repository once it's there. For now, linking to the original is a good placeholder/example.)*
+*   **Learn more about their journey:** Kenan's project folder will contain his specific `README.md` with more details about his prompts and process!
+*   **GitHub:** [https://github.com/K-H101/Kenan-shot](https://github.com/K-H101/Kenan-shot)
 
 ---
 
@@ -83,7 +83,7 @@ Ready to share your own AI-powered creation? Here's how:
     *   **Code Files:** Make sure your code is saved in the correct format (e.g., `.py` for Python, `.html` for web).
     *   **`README.md` for Your Project:** Create a simple `README.md` file *inside your project's folder* that includes:
         *   Your project's name.
-        *   Your name and age.
+        *   Your name/username and age.
         *   The AI tools you used (e.g., "I used Qwen-Coder to help write the player movement").
         *   A brief description of what your project does.
         *   How to run your project (if it needs special instructions).
@@ -91,7 +91,7 @@ Ready to share your own AI-powered creation? Here's how:
 
 3.  **Propose Your Contribution (Pull Request):**
     *   Navigate to your own copy of this repository (you'll need to "Fork" this repository first).
-    *   Create a new folder named something like `[YourProjectName-YourAge]` in the `/projects` directory.
+    *   Create a new folder named something like `[YourProjectName-YourAge]` in the `/projects` directory. **For example, `Kenans-CatGame-9` for Kenan's project.**
     *   Upload your code files and your project's `README.md` into this folder.
     *   Submit a "Pull Request" to this main repository. This is like saying, "Hey, I've got something awesome to share!"
 
