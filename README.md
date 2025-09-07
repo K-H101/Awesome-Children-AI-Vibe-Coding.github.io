@@ -14,7 +14,7 @@ Want to see the creative vibe in action? We've built a special website that show
 
 Get inspired by the dreamy colors, interactive elements, and discover how you can get involved.
 
-➡️ **[Visit the Awesome-Children-AI-Vibe-Coding Website!](https://K-H101.github.io/Awesome-Children-AI-Vibe-Coding)** ⬅️
+➡️ **[Visit the Awesome-Children-AI-Vibe-Coding Website!](https://k-h101.github.io/Awesome-Children-AI-Vibe-Coding.github.io/)** ⬅️
 
 *(Remember to replace `your-username` with your actual GitHub username and repository name after deploying your website using GitHub Pages!)*
 
