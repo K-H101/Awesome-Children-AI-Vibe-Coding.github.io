@@ -1,9 +1,3 @@
-You got it! To make the connection clear, we'll add a prominent link to the project's website from the main `README.md` file.
-
-Here's the updated `README.md` with the link to your new website.
-
----
-
 # Awesome-Children-AI-Vibe-Coding 🚀✨
 
 **Welcome to a world where coding meets creativity, powered by AI!**
