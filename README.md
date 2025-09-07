@@ -1,3 +1,9 @@
+You got it! To make the connection clear, we'll add a prominent link to the project's website from the main `README.md` file.
+
+Here's the updated `README.md` with the link to your new website.
+
+---
+
 # Awesome-Children-AI-Vibe-Coding 🚀✨
 
 **Welcome to a world where coding meets creativity, powered by AI!**
@@ -5,6 +11,20 @@
 This is a special place for kids aged **5 to 15** from all around the globe 🌍 to dive into the exciting new era of coding by collaborating with AI "code agents."
 
 Have you ever wanted to build your own games, stories, or cool animations? Now you can, with your AI as your creative partner! We're all about **"vibe coding"** – making coding fun, experimental, and driven by your imagination.
+
+---
+
+## Explore Our Live Website! 🌈✨
+
+Want to see the creative vibe in action? We've built a special website that showcases the spirit of Awesome-Children-AI-Vibe-Coding!
+
+Get inspired by the dreamy colors, interactive elements, and discover how you can get involved.
+
+➡️ **[Visit the Awesome-Children-AI-Vibe-Coding Website!](https://K-H101.github.io/Awesome-Children-AI-Vibe-Coding)** ⬅️
+
+*(Remember to replace `your-username` with your actual GitHub username and repository name after deploying your website using GitHub Pages!)*
+
+---
 
 ## Our Mission:
 
@@ -83,7 +103,7 @@ Ready to share your own AI-powered creation? Here's how:
 
 We'll review your submission and, if it fits, we'll merge it into our collection!
 
-**Need help with Pull Requests?** Check out our [Contribution Guide](#contributing-guide).
+**Need help with calculating Pull Requests?** Check out our [Contribution Guide](#contributing-guide).
 
 ---
 
